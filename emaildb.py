@@ -1,7 +1,7 @@
 import sqlite3
 from pip._vendor.distlib.compat import raw_input
 
-conn = sqlite3.connect('emaildb.sqlite')
+conn = sqlite3.connect('emaildb1.sqlite')
 cur = conn.cursor()
 
 cur.execute('''Drop table if exists Counts''')
